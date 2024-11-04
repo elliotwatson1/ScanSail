@@ -92,7 +92,7 @@ function CameraScreen({ navigation }) {
         encoding: FileSystem.EncodingType.Base64,
       });
 
-      const apiKey = 'AIzaSyA0zQJ8gO4L_h9uOLxtaOYMjXTg6p3pU0E';
+      const apiKey = 'PRIVATE';
 
       const response = await fetch(
         `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`,
